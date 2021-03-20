@@ -1,9 +1,10 @@
-@use 'config/blocks.yaml'; // Global config for blocks namespace.
+@use 'config/blocks.yaml';
+// Global config for blocks namespace.
 @use "public"; // Public styles of this block.
 
 
 .#{blocks.$namespace}-react-block {
-  .inner-block{
+  .inner-block {
     > * {
       margin: 0;
     }

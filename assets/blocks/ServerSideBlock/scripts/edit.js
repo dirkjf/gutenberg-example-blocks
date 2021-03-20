@@ -1,7 +1,7 @@
 import React from "react";
 import {useBlockProps} from '@wordpress/block-editor';
 import {PanelBody, TextControl} from "@wordpress/components";
-import {RichText, InspectorControls} from "@wordpress/editor";
+import {InspectorControls, RichText} from "@wordpress/editor";
 
 export default function edit(props, blockName) {
 
@@ -10,7 +10,7 @@ export default function edit(props, blockName) {
   let blockProps = useBlockProps({
     className: blockName,
     style: {borderColor: borderColor}
-});
+  });
 
   const changeTitle = (value) => {
     setAttributes({title: value});
@@ -23,19 +23,19 @@ export default function edit(props, blockName) {
   return (
     <>
       <InspectorControls>
-      <PanelBody title={'Colors'} initialOpen={true}>
-        <TextControl
-          label={'Border Color'}
-          onChange={changeBorderColor}
-          value={borderColor}
-        />
-      </PanelBody>
+        <PanelBody title={'Colors'} initialOpen={true}>
+          <TextControl
+            label={'Border Color'}
+            onChange={changeBorderColor}
+            value={borderColor}
+          />
+        </PanelBody>
       </InspectorControls>
       <div {...blockProps}>
         <RichText
-            tagName="h2"
-            value={title}
-            onChange={changeTitle}
+          tagName="h2"
+          value={title}
+          onChange={changeTitle}
         />
       </div>
     </>

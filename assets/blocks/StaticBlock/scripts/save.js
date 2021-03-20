@@ -5,7 +5,7 @@ const {useBlockProps} = wp.blockEditor;
 
 export default function save(props, blockName) {
 
-  const {attributes: {borderColor, title} } = props;
+  const {attributes: {borderColor, title}} = props;
 
   const blockProps = useBlockProps.save({
     className: blockName,
@@ -13,10 +13,10 @@ export default function save(props, blockName) {
   });
 
   return (
-      <div {...blockProps}>
-        <h2>
-          {title}
-        </h2>
-      </div>
+    <div {...blockProps}>
+      <h2>
+        {title}
+      </h2>
+    </div>
   )
 }

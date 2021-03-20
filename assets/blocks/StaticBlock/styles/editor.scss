@@ -1,8 +1,8 @@
 @use 'config/blocks.yaml'; // Global config.
 @use "public"; // Public styles of this block.
 
-.#{blocks.$namespace}-server-side-block {
-    h2 {
-      margin: 0 !important;
-    }
+.#{blocks.$namespace}-static-block {
+  h2 {
+    margin: 0 !important;
+  }
 }

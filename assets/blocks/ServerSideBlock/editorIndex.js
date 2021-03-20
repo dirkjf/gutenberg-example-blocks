@@ -4,9 +4,9 @@ import blockNameHelper from '../helpers/blockNameHelper'
 import React from 'react';
 import {registerBlockType} from '@wordpress/blocks';
 
-import edit from './js/edit';
+import edit from './scripts/edit';
 
-import './scss/editor.scss';
+import './styles/editor.scss';
 
 
 (function () {
