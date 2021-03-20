@@ -9,35 +9,31 @@ A plugin for Wordpress. Three examples of different ways to create a Gutenberg b
 
 You can use this plugin as an example to create your own blocks using one of the three methods.
 
----
-
 ## Installation
 
-Clone this repository
+Clone this repository:
 ```
 git clone https://github.com/dirkjf/gutenberg-example-blocks
 ```
 
-Install dependencies
+Install PHP dependencies:
 ```
 composer install
 ```
 
-Install JS dependencies
+Install JS dependencies:
 ```
 yarn install
 ```
 
-Create autoload file with Composer for PHP classloading
+Create autoloader file for PHP classloading:
 ```
 composer dumpautoload -o
 ```
 
----
 
 ## Configuration
 In the `/config` directory, you can change the block namespace and category, You will also find some settings for Webpack. 
 
----
 ## Asset building
-Done with Webpack. Run `yarn start` to start the live server and `yarn build` to generate assets for production. 
+Done with Webpack. Run `yarn start` to start the webpack live server and `yarn build` to generate assets for production. 
