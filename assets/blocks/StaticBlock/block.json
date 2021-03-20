@@ -1,0 +1,17 @@
+{
+	"name": "Static Block",
+	"description": "Example block that is saved as plain HMTL.",
+	"keywords": [
+		"example"
+	],
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Title of static block"
+		},
+		"borderColor": {
+			"type": "string",
+			"default": "green"
+		}
+	}
+}

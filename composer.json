@@ -1,0 +1,24 @@
+{
+  "name": "dirkjf/gutenberg-blocks",
+  "description": "Starter blocks to build a Gutenberg plugin",
+  "type":"wordpress-plugin",
+  "minimum-stability" : "stable",
+  "authors": [
+    {
+      "email": "d.j.faber@outlook.com",
+      "name": "Dirk Faber"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "symfony/yaml": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {"GutenbergExampleBlocks\\": "src/"}
+  }
+}

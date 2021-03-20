@@ -1,0 +1,6 @@
+@use 'config/blocks.yaml'; // Global config.
+
+.#{blocks.$namespace}-static-block {
+  background-color: lightgrey;
+  border: 5px solid;
+}

@@ -1,0 +1,3 @@
+dev_url: 'http://localhost:8888/' # Local address you use for development.
+dev_port: 3003 # Port for the webpack live server.
+dev_asset_path: 'http://localhost:3003/public/build/' # Asset path for the webpack live server.

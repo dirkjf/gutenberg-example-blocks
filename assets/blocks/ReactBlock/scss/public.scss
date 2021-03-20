@@ -1,0 +1,10 @@
+@use 'config/blocks.yaml'; // Global config.
+
+// Note that the 'react-block' part is hard-coded and must be updated when you change the name of this block.
+// Also React block all have a wrapper.
+.#{blocks.$namespace}-react-block {
+  .inner-block{
+    background-color: lightgrey;
+    border: 5px solid;
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"name": "React Block",
+	"description": "Example block that is rendered with React.",
+	"keywords": [
+		"example"
+	],
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Title of React block"
+		},
+		"borderColor": {
+			"type": "string",
+			"default": "blue"
+		}
+	}
+}

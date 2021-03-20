@@ -1,0 +1,17 @@
+{
+	"name": "Server Side Block",
+	"description": "Example block that is rendered on the server side.",
+	"keywords": [
+		"example"
+	],
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Title of server side block"
+		},
+		"borderColor": {
+			"type": "string",
+			"default": "purple"
+		}
+	}
+}

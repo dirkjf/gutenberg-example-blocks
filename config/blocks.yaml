@@ -1,0 +1,2 @@
+namespace: 'gutenberg-example-blocks' # Used in the classname of the HTML that is saved and read in the editor.
+category_name: 'Gutenberg Example Blocks' # Category name for the editor.
